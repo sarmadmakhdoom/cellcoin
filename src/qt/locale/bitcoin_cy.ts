@@ -154,8 +154,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -640,8 +640,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Craidd Sarmadcoin</translation>
+        <source>Cellcoin Core</source>
+        <translation>Craidd Cellcoin</translation>
     </message>
     <message>
         <source>Information</source>

@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a Gitian build of Sarmadcoin Core using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Cellcoin Core using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the Sarmadcoin
+Gitian is the deterministic build process that is used to build the Cellcoin
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from the source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to sarmadcoin.org.
+to cellcoin.org.
 
 More independent Gitian builders are needed, which is why this guide exists.
 It is preferred you follow these steps yourself instead of using someone else's
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Sarmadcoin Core](#building-sarmadcoin-core)
+- [Building Cellcoin Core](#building-cellcoin-core)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -310,12 +310,12 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for sarmadcoin and Gitian.
+Clone the git repositories for cellcoin and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/sarmadcoin-project/sarmadcoin
-git clone https://github.com/sarmadcoin-project/gitian.sigs.ltc.git
+git clone https://github.com/cellcoin-project/cellcoin
+git clone https://github.com/cellcoin-project/gitian.sigs.ltc.git
 ```
 
 Setting up the Gitian image
@@ -344,16 +344,16 @@ Getting and building the inputs
 At this point you have two options, you can either use the automated script (found in [contrib/gitian-build.sh](/contrib/gitian-build.sh)) or you could manually do everything by following this guide. If you're using the automated script, then run it with the "--setup" command. Afterwards, run it with the "--build" command (example: "contrib/gitian-build.sh -b signer 0.13.0"). Otherwise ignore this.
 
 Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-create-inputs-first-time-or-when-dependency-versions-change)
-in the sarmadcoin repository under 'Fetch and create inputs' to install sources which require
+in the cellcoin repository under 'Fetch and create inputs' to install sources which require
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
 offline.
 
-Building Sarmadcoin Core
+Building Cellcoin Core
 ----------------
 
-To build Sarmadcoin Core (for Linux, OS X and Windows) just follow the steps under 'perform
-Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the sarmadcoin repository.
+To build Cellcoin Core (for Linux, OS X and Windows) just follow the steps under 'perform
+Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the cellcoin repository.
 
 This may take some time as it will build all the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -367,12 +367,12 @@ tail -f var/build.log
 
 Output from `gbuild` will look something like
 
-    Initialized empty Git repository in /home/debian/gitian-builder/inputs/sarmadcoin/.git/
+    Initialized empty Git repository in /home/debian/gitian-builder/inputs/cellcoin/.git/
     remote: Counting objects: 57959, done.
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/sarmadcoin-project/sarmadcoin
+    From https://github.com/cellcoin-project/cellcoin
     ... (new tags, new branch etc)
     --- Building for trusty amd64 ---
     Stopping target if it is up
@@ -398,18 +398,18 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/thrasher-/sarmadcoin.git
+URL=https://github.com/thrasher-/cellcoin.git
 COMMIT=2014_03_windows_unicode_path
-./bin/gbuild --commit sarmadcoin=${COMMIT} --url sarmadcoin=${URL} ../sarmadcoin/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit sarmadcoin=${COMMIT} --url sarmadcoin=${URL} ../sarmadcoin/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit sarmadcoin=${COMMIT} --url sarmadcoin=${URL} ../sarmadcoin/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit cellcoin=${COMMIT} --url cellcoin=${URL} ../cellcoin/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit cellcoin=${COMMIT} --url cellcoin=${URL} ../cellcoin/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit cellcoin=${COMMIT} --url cellcoin=${URL} ../cellcoin/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Building fully offline
 -----------------------
 
 For building fully offline including attaching signatures to unsigned builds, the detached-sigs repository
-and the sarmadcoin git repository with the desired tag must both be available locally, and then gbuild must be
+and the cellcoin git repository with the desired tag must both be available locally, and then gbuild must be
 told where to find them. It also requires an apt-cacher-ng which is fully-populated but set to offline mode, or
 manually disabling gitian-builder's use of apt-get to update the VM build environment.
 
@@ -428,7 +428,7 @@ cd /path/to/gitian-builder
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root apt-get update
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root \
   -e DEBIAN_FRONTEND=noninteractive apt-get --no-install-recommends -y install \
-  $( sed -ne '/^packages:/,/[^-] .*/ {/^- .*/{s/"//g;s/- //;p}}' ../sarmadcoin/contrib/gitian-descriptors/*|sort|uniq )
+  $( sed -ne '/^packages:/,/[^-] .*/ {/^- .*/{s/"//g;s/- //;p}}' ../cellcoin/contrib/gitian-descriptors/*|sort|uniq )
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root apt-get -q -y purge grub
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root -e DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade
 ```
@@ -448,12 +448,12 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/sarmadcoin-project/sarmadcoin-detached-sigs.git
+git clone https://github.com/cellcoin-project/cellcoin-detached-sigs.git
 
-BTCPATH=/some/root/path/sarmadcoin
-SIGPATH=/some/root/path/sarmadcoin-detached-sigs
+BTCPATH=/some/root/path/cellcoin
+SIGPATH=/some/root/path/cellcoin-detached-sigs
 
-./bin/gbuild --url sarmadcoin=${BTCPATH},signature=${SIGPATH} ../sarmadcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+./bin/gbuild --url cellcoin=${BTCPATH},signature=${SIGPATH} ../cellcoin/contrib/gitian-descriptors/gitian-win-signer.yml
 ```
 
 Signing externally
@@ -468,9 +468,9 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/sarmadcoin-linux-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/sarmadcoin-win-build.assert
-    gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/sarmadcoin-osx-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/cellcoin-linux-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/cellcoin-win-build.assert
+    gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/cellcoin-osx-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -480,5 +480,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[sarmadcoin-project/gitian.sigs.ltc](https://github.com/sarmadcoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[cellcoin-project/gitian.sigs.ltc](https://github.com/cellcoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.

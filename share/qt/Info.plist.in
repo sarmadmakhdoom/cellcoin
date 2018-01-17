@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Sarmadcoin-Qt</string>
+  <string>Cellcoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Sarmadcoin-Qt</string>
+  <string>Cellcoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.sarmadcoin.Sarmadcoin-Qt</string>
+  <string>org.cellcoin.Cellcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.sarmadcoin.SarmadcoinPayment</string>
+      <string>org.cellcoin.CellcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>sarmadcoin</string>
+        <string>cellcoin</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.sarmadcoin.paymentrequest</string>
+      <string>org.cellcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Sarmadcoin payment request</string>
+      <string>Cellcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-sarmadcoin-payment-request</string>
+        <string>application/x-cellcoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>sarmadcoinpaymentrequest</string>
+          <string>cellcoinpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.sarmadcoin.paymentrequest</string>
+        <string>org.cellcoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

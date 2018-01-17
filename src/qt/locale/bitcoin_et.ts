@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Sarmadcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your Cellcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Cellcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Sarmadcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your Cellcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu Cellcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -290,8 +290,8 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Saada münte Sarmadcoini aadressile</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Saada münte Cellcoini aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +314,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -342,12 +342,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Sarmadcoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Sarmadcoini aadressiga</translation>
+        <source>Sign messages with your Cellcoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Cellcoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Sarmadcoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Sarmadcoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Cellcoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Cellcoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,20 +366,20 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sarmadcoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja sarmadcoini: URId)</translation>
+        <source>Request payments (generates QR codes and cellcoin: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja cellcoini: URId)</translation>
     </message>
     <message>
-        <source>Open a sarmadcoin: URI or payment request</source>
-        <translation>Ava sarmadcoini: URI või maksepäring</translation>
+        <source>Open a cellcoin: URI or payment request</source>
+        <translation>Ava cellcoini: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Sarmadcoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Sarmadcoini võrku</numerusform><numerusform>%n aktiivset ühendust Sarmadcoini võrku</numerusform></translation>
+        <source>%n active connection(s) to Cellcoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Cellcoini võrku</numerusform><numerusform>%n aktiivset ühendust Cellcoini võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Sarmadcoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Sarmadcoin aadress.</translation>
+        <source>The entered address "%1" is not a valid Cellcoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne Cellcoin aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,8 +756,8 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Sarmadcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Sarmadcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Cellcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Cellcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -855,7 +855,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Sarmadcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cellcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1337,8 +1337,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Sarmadcoin address</source>
-        <translation>Hoiatus: Ebakorrektne Sarmadcoin aadress</translation>
+        <source>Warning: Invalid Cellcoin address</source>
+        <translation>Hoiatus: Ebakorrektne Cellcoin aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1417,8 +1417,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Sarmadcoin address to sign the message with</source>
-        <translation>Sarmadcoin aadress millega sõnum allkirjastada</translation>
+        <source>The Cellcoin address to sign the message with</source>
+        <translation>Cellcoin aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1449,8 +1449,8 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Sarmadcoin address</source>
-        <translation>Allkirjasta sõnum Sarmadcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Cellcoin address</source>
+        <translation>Allkirjasta sõnum Cellcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1469,12 +1469,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Sarmadcoin address the message was signed with</source>
-        <translation>Sarmadcoin aadress millega sõnum on allkirjastatud</translation>
+        <source>The Cellcoin address the message was signed with</source>
+        <translation>Cellcoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Sarmadcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Sarmadcoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Cellcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Cellcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1758,8 +1758,8 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoini tuumik</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoini tuumik</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

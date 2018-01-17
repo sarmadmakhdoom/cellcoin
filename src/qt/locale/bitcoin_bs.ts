@@ -14,8 +14,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     </context>
 <context>
@@ -156,8 +156,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoin Jezrga</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoin Jezrga</translation>
     </message>
     </context>
 </TS>

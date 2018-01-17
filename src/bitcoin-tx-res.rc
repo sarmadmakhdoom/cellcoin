@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Sarmadcoin"
-            VALUE "FileDescription",    "sarmadcoin-tx (CLI Sarmadcoin transaction editor utility)"
+            VALUE "CompanyName",        "Cellcoin"
+            VALUE "FileDescription",    "cellcoin-tx (CLI Cellcoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "sarmadcoin-tx"
+            VALUE "InternalName",       "cellcoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "sarmadcoin-tx.exe"
-            VALUE "ProductName",        "sarmadcoin-tx"
+            VALUE "OriginalFilename",   "cellcoin-tx.exe"
+            VALUE "ProductName",        "cellcoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

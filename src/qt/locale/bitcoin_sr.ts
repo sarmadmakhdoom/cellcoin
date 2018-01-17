@@ -130,8 +130,8 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Пошаљите новац на sarmadcoin адресу</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Пошаљите новац на cellcoin адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>

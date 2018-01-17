@@ -1,41 +1,41 @@
-Sarmadcoin Core
+Cellcoin Core
 =============
 
 Setup
 ---------------------
-Sarmadcoin Core is the original Sarmadcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Sarmadcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Cellcoin Core is the original Cellcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Cellcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Sarmadcoin Core, visit [sarmadcoin.org](https://sarmadcoin.org).
+To download Cellcoin Core, visit [cellcoin.org](https://cellcoin.org).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Sarmadcoin on your native platform.
+The following are some helpful notes on how to run Cellcoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/sarmadcoin-qt` (GUI) or
-- `bin/sarmadcoind` (headless)
+- `bin/cellcoin-qt` (GUI) or
+- `bin/cellcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run sarmadcoin-qt.exe.
+Unpack the files into a directory, and then run cellcoin-qt.exe.
 
 ### OS X
 
-Drag Sarmadcoin-Core to your applications folder, and then run Sarmadcoin-Core.
+Drag Cellcoin-Core to your applications folder, and then run Cellcoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [Sarmadcoin Wiki](https://sarmadcoin.info/)
+* See the documentation at the [Cellcoin Wiki](https://cellcoin.info/)
 for help and more information.
-* Ask for help on [#sarmadcoin](http://webchat.freenode.net?channels=sarmadcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=sarmadcoin).
-* Ask for help on the [SarmadcoinTalk](https://sarmadcointalk.io/) forums.
+* Ask for help on [#cellcoin](http://webchat.freenode.net?channels=cellcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=cellcoin).
+* Ask for help on the [CellcoinTalk](https://cellcointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Sarmadcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Cellcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -45,12 +45,12 @@ The following are developer notes on how to build Sarmadcoin on your native plat
 
 Development
 ---------------------
-The Sarmadcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Cellcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/sarmadcoin/doxygen/)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/cellcoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
 - [Travis CI](travis-ci.md)
@@ -61,8 +61,8 @@ The Sarmadcoin repo's [root README](/README.md) contains relevant information on
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [SarmadcoinTalk](https://sarmadcointalk.io/) forums.
-* Discuss general Sarmadcoin development on #sarmadcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=sarmadcoin-dev).
+* Discuss on the [CellcoinTalk](https://cellcointalk.io/) forums.
+* Discuss general Cellcoin development on #cellcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=cellcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

@@ -66,11 +66,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += sarmadcoind
+  bin_PROGRAMS += cellcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += sarmadcoin-cli sarmadcoin-tx
+  bin_PROGRAMS += cellcoin-cli cellcoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -370,16 +370,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-sarmadcoind_SOURCES = bitcoind.cpp
-sarmadcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-sarmadcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-sarmadcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+cellcoind_SOURCES = bitcoind.cpp
+cellcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+cellcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+cellcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-sarmadcoind_SOURCES += bitcoind-res.rc
+cellcoind_SOURCES += bitcoind-res.rc
 endif
 
-sarmadcoind_LDADD = \
+cellcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -393,38 +393,38 @@ sarmadcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-sarmadcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+cellcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-sarmadcoin_cli_SOURCES = bitcoin-cli.cpp
-sarmadcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-sarmadcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-sarmadcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+cellcoin_cli_SOURCES = bitcoin-cli.cpp
+cellcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+cellcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+cellcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-sarmadcoin_cli_SOURCES += bitcoin-cli-res.rc
+cellcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-sarmadcoin_cli_LDADD = \
+cellcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-sarmadcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+cellcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-sarmadcoin_tx_SOURCES = bitcoin-tx.cpp
-sarmadcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-sarmadcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-sarmadcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+cellcoin_tx_SOURCES = bitcoin-tx.cpp
+cellcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+cellcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+cellcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-sarmadcoin_tx_SOURCES += bitcoin-tx-res.rc
+cellcoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-sarmadcoin_tx_LDADD = \
+cellcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -432,7 +432,7 @@ sarmadcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-sarmadcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+cellcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

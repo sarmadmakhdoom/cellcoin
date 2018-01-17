@@ -1,42 +1,42 @@
-Sarmadcoin Core integration/staging tree
+Cellcoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/sarmadcoin-project/sarmadcoin.svg?branch=master)](https://travis-ci.org/sarmadcoin-project/sarmadcoin)
+[![Build Status](https://travis-ci.org/cellcoin-project/cellcoin.svg?branch=master)](https://travis-ci.org/cellcoin-project/cellcoin)
 
-https://sarmadcoin.org
+https://cellcoin.org
 
-What is Sarmadcoin?
+What is Cellcoin?
 ----------------
 
-Sarmadcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Sarmadcoin uses peer-to-peer technology to operate
+Cellcoin is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. Cellcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Sarmadcoin Core is the name of open source
+out collectively by the network. Cellcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Sarmadcoin Core software, see [https://sarmadcoin.org](https://sarmadcoin.org).
+the Cellcoin Core software, see [https://cellcoin.org](https://cellcoin.org).
 
 License
 -------
 
-Sarmadcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Cellcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/sarmadcoin-project/sarmadcoin/tags) are created
-regularly to indicate new official, stable release versions of Sarmadcoin Core.
+completely stable. [Tags](https://github.com/cellcoin-project/cellcoin/tags) are created
+regularly to indicate new official, stable release versions of Cellcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/sarmadcoin-dev)
+The developer [mailing list](https://groups.google.com/forum/#!forum/cellcoin-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #sarmadcoin-dev.
+Developer IRC can be found on Freenode at #cellcoin-dev.
 
 Testing
 -------
@@ -70,7 +70,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Sarmadcoin periodically.
+Translations are converted to Cellcoin periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

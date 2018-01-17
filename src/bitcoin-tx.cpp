@@ -54,10 +54,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = strprintf(_("%s sarmadcoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = strprintf(_("%s cellcoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  sarmadcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded sarmadcoin transaction") + "\n" +
-              "  sarmadcoin-tx [options] -create [commands]   " + _("Create hex-encoded sarmadcoin transaction") + "\n" +
+              "  cellcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded cellcoin transaction") + "\n" +
+              "  cellcoin-tx [options] -create [commands]   " + _("Create hex-encoded cellcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
