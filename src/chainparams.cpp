@@ -84,8 +84,8 @@ public:
         consensus.nPowTargetSpacing = 1 * 30;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
-        consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
-        consensus.nMinerConfirmationWindow = 8064; // nPowTargetTimespan / nPowTargetSpacing * 4
+        consensus.nRuleChangeActivationThreshold = 30; // 75% of 8064
+        consensus.nMinerConfirmationWindow = 40; // nPowTargetTimespan / nPowTargetSpacing * 4
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
@@ -104,7 +104,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000ba50a60f8b56c7fe0");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x29c8c00e1a5f446a6364a29633d3f1ee16428d87c8d3851a1c570be8170b04c2"); //1259849
+        consensus.defaultAssumeValid = uint256S("0x70d8c115df3b7b970a4c0ba2471f82dd32e380e26f5b5a289233df9f160937c3"); //0
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -124,7 +124,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x245283d32ebd535552389485356a1cd0737bf894bca0c95ce84e9176953f69bb"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("seeder.eerapi.com", true);
+        vSeeds.emplace_back("dnssseed.eerapi.com", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -153,7 +153,7 @@ public:
         chainTxData = ChainTxData{
             // Data as of block db42d00d824950a125f9b08b6b6c282c484781562fa8b3bd29d6ce4a2627c348 (height 1259851).
             1516191887, // * UNIX timestamp of last known number of transactions
-             6,  // * total number of transactions between genesis and that timestamp
+             5,  // * total number of transactions between genesis and that timestamp
                     //   (the tx=... number in the SetBestChain debug.log lines)
              1000.0     // * estimated number of transactions per second after that timestamp
         };
