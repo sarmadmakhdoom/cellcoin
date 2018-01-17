@@ -76,7 +76,7 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 840000;
         consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("75616b3f89a661d912b807d41bf61e5c21364921b8f0d8998bdd933fce69055a");
+        consensus.BIP34Hash = uint256S("a6f098d346e8e769513bb8a188fa0733091408f5e04d2e4a48769b108d73a216");
         consensus.BIP65Height = 1; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
         consensus.BIP66Height = 1; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
@@ -101,10 +101,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000200020");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000600060");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x75616b3f89a661d912b807d41bf61e5c21364921b8f0d8998bdd933fce69055a"); //0
+        consensus.defaultAssumeValid = uint256S("0xa6f098d346e8e769513bb8a188fa0733091408f5e04d2e4a48769b108d73a216"); //0
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
