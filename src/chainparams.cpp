@@ -101,10 +101,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000700070");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xa70d8c115df3b7b970a4c0ba2471f82dd32e380e26f5b5a289233df9f160937c3"); //0
+        consensus.defaultAssumeValid = uint256S("0x000000000000000000000000000000000000000000000000000000001df8d9cd"); //0
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -147,13 +147,15 @@ public:
                 {  3, uint256S("0x6f209d0cf9849b63456952c53f62f731d0927341856d72944f77189ca23540c5")},
                 {  4, uint256S("0x68b9d7a05eb69a7b5d30d4cb811f2c768fff9aabab3887c384f819933f3e4dba")},
                 {  5, uint256S("0xa6f098d346e8e769513bb8a188fa0733091408f5e04d2e4a48769b108d73a216")},
+                {  250, uint256S("e5ac7522af59e96447d7aa9b0757dbada911c22de8ac003a583aa8b09ecb587e")},
+                
             }
         };
 
         chainTxData = ChainTxData{
             // Data as of block db42d00d824950a125f9b08b6b6c282c484781562fa8b3bd29d6ce4a2627c348 (height 1259851).
-            1516191887, // * UNIX timestamp of last known number of transactions
-             5,  // * total number of transactions between genesis and that timestamp
+            1516228704, // * UNIX timestamp of last known number of transactions
+             250,  // * total number of transactions between genesis and that timestamp
                     //   (the tx=... number in the SetBestChain debug.log lines)
              1000.0     // * estimated number of transactions per second after that timestamp
         };
