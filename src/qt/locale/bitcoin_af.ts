@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Sarmadcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Cellcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Cellcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Sarmadcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your Cellcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u Cellcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -330,8 +330,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Stuur munte na 'n Sarmadcoin adres</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Stuur munte na 'n Cellcoin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,8 +350,8 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +378,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Sarmadcoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Sarmadcoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Cellcoin addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Cellcoin adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Sarmadcoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Sarmadcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Cellcoin addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Cellcoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -398,8 +398,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sarmadcoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en sarmadcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and cellcoin: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en cellcoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,8 +410,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a sarmadcoin: URI or payment request</source>
-        <translation>Skep 'n sarmadcoin: URI of betalingsversoek</translation>
+        <source>Open a cellcoin: URI or payment request</source>
+        <translation>Skep 'n cellcoin: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -1012,8 +1012,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoin Kern</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoin Kern</translation>
     </message>
     <message>
         <source>Information</source>

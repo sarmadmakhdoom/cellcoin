@@ -142,8 +142,8 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Enviar monedas a una dirección Sarmadcoin</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Enviar monedas a una dirección Cellcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Sarmadcoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Sarmadcoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Cellcoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Cellcoin para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Sarmadcoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Sarmadcoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Cellcoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Cellcoin concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -218,8 +218,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sarmadcoin: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL's de Sarmadcoin)</translation>
+        <source>Request payments (generates QR codes and cellcoin: URIs)</source>
+        <translation>Solicitar pagos (genera codigo QR y URL's de Cellcoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -230,8 +230,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a sarmadcoin: URI or payment request</source>
-        <translation>Abrir un sarmadcoin: URI o petición de pago</translation>
+        <source>Open a cellcoin: URI or payment request</source>
+        <translation>Abrir un cellcoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -494,8 +494,8 @@
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically open the Sarmadcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Sarmadcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Cellcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Cellcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -589,8 +589,8 @@
         <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Sarmadcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Sarmadcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cellcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Cellcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1019,8 +1019,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Sarmadcoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Sarmadcoin</translation>
+        <source>Sign the message to prove you own this Cellcoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Cellcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1039,8 +1039,8 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Sarmadcoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Sarmadcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Cellcoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Cellcoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1123,8 +1123,8 @@
 </translation>
     </message>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Núcleo de Sarmadcoin</translation>
+        <source>Cellcoin Core</source>
+        <translation>Núcleo de Cellcoin</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

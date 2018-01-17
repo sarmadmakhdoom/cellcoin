@@ -785,7 +785,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Sarmadcoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Cellcoin address"));
         }
         else // Valid address
         {

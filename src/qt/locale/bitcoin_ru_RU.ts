@@ -230,8 +230,8 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin Core</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -442,8 +442,8 @@
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Sarmadcoin network through a SOCKS5 proxy.</source>
-        <translation>Подключится к сети Sarmadcoin через SOCKS5 прокси.</translation>
+        <source>Connect to the Cellcoin network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Cellcoin через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -522,7 +522,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Sarmadcoin address (e.g. %1)</source>
+        <source>Enter a Cellcoin address (e.g. %1)</source>
         <translation>Введите биткоин-адрес (напр. %1)</translation>
     </message>
     <message numerus="yes">
@@ -832,8 +832,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoin Core</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoin Core</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>

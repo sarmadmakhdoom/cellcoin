@@ -62,7 +62,7 @@
         <translation>آدرس های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Cellcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس های شما برای فرستادن پرداخت هاست. همیشه قبل از فرستادن سکه ها مقدار و آدرس دریافت کننده را چک کنید.</translation>
     </message>
     <message>
@@ -298,8 +298,8 @@
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>ارسال وجه به نشانی Sarmadcoin</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>ارسال وجه به نشانی Cellcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +322,8 @@
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -350,12 +350,12 @@
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
-        <source>Sign messages with your Sarmadcoin addresses to prove you own them</source>
-        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Sarmadcoin خود امضا کنید</translation>
+        <source>Sign messages with your Cellcoin addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Cellcoin خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Sarmadcoin addresses</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Sarmadcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify messages to ensure they were signed with specified Cellcoin addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Cellcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -374,8 +374,8 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sarmadcoin: URIs)</source>
-        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس sarmadcoin)</translation>
+        <source>Request payments (generates QR codes and cellcoin: URIs)</source>
+        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس cellcoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -386,16 +386,16 @@
         <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
     </message>
     <message>
-        <source>Open a sarmadcoin: URI or payment request</source>
-        <translation>بازکردن یک sarmadcoin: آدرس یا درخواست پرداخت</translation>
+        <source>Open a cellcoin: URI or payment request</source>
+        <translation>بازکردن یک cellcoin: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>گزینه‌های خط‌فرمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Sarmadcoin network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ Sarmadcoin</numerusform></translation>
+        <source>%n active connection(s) to Cellcoin network</source>
+        <translation><numerusform>%n ارتباط فعال با شبکهٔ Cellcoin</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -642,8 +642,8 @@
         <translation>ویرایش آدرس قرستنده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Sarmadcoin address.</source>
-        <translation>نشانی وارد شده "%1" یک نشانی معتبر Sarmadcoin نیست.</translation>
+        <source>The entered address "%1" is not a valid Cellcoin address.</source>
+        <translation>نشانی وارد شده "%1" یک نشانی معتبر Cellcoin نیست.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -852,8 +852,8 @@
         <translation>استخراج</translation>
     </message>
     <message>
-        <source>Automatically open the Sarmadcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ Sarmadcoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the Cellcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ Cellcoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -951,8 +951,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Sarmadcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Sarmadcoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cellcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Cellcoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1016,8 +1016,8 @@
         <translation>مبلغ</translation>
     </message>
     <message>
-        <source>Enter a Sarmadcoin address (e.g. %1)</source>
-        <translation>یک آدرس Sarmadcoin وارد کنید (مثلاً %1)</translation>
+        <source>Enter a Cellcoin address (e.g. %1)</source>
+        <translation>یک آدرس Cellcoin وارد کنید (مثلاً %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1476,8 +1476,8 @@
         <translation>این یک پرداخت عادی است</translation>
     </message>
     <message>
-        <source>The Sarmadcoin address to send the payment to</source>
-        <translation>نشانی Sarmadcoin برای ارسال پرداخت به آن</translation>
+        <source>The Cellcoin address to send the payment to</source>
+        <translation>نشانی Cellcoin برای ارسال پرداخت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1529,8 +1529,8 @@
         <translation>ا&amp;مضای پیام</translation>
     </message>
     <message>
-        <source>The Sarmadcoin address to sign the message with</source>
-        <translation>نشانی Sarmadcoin برای امضاء پیغام با آن</translation>
+        <source>The Cellcoin address to sign the message with</source>
+        <translation>نشانی Cellcoin برای امضاء پیغام با آن</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1561,7 +1561,7 @@
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Sarmadcoin address</source>
+        <source>Sign the message to prove you own this Cellcoin address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -1581,12 +1581,12 @@
         <translation>&amp;شناسایی پیام</translation>
     </message>
     <message>
-        <source>The Sarmadcoin address the message was signed with</source>
-        <translation>نشانی Sarmadcoin که پیغام با آن امضاء شده</translation>
+        <source>The Cellcoin address the message was signed with</source>
+        <translation>نشانی Cellcoin که پیغام با آن امضاء شده</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Sarmadcoin address</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Sarmadcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified Cellcoin address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Cellcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1702,8 +1702,8 @@
         <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
     </message>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation> هسته Sarmadcoin </translation>
+        <source>Cellcoin Core</source>
+        <translation> هسته Cellcoin </translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

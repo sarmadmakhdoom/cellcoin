@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Sarmadcoin tests.
+Utilities to generate test vectors for the data-driven Cellcoin tests.
 
 Usage: 
 

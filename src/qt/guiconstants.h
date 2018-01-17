@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Sarmadcoin"
-#define QAPP_ORG_DOMAIN "sarmadcoin.org"
-#define QAPP_APP_NAME_DEFAULT "Sarmadcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Sarmadcoin-Qt-testnet"
+#define QAPP_ORG_NAME "Cellcoin"
+#define QAPP_ORG_DOMAIN "cellcoin.org"
+#define QAPP_APP_NAME_DEFAULT "Cellcoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Cellcoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

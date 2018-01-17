@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
+        <source>Cellcoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>

@@ -58,12 +58,12 @@
         <translation>Adresa na koju se prima</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su Vaše Sarmadcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića</translation>
+        <source>These are your Cellcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su Vaše Cellcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su Vaše Sarmadcoin adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
+        <source>These are your Cellcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su Vaše Cellcoin adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -198,16 +198,16 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Pošalji novčiće na Sarmadcoin adresu</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Pošalji novčiće na Cellcoin adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -446,8 +446,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoin Core</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoin Core</translation>
     </message>
     <message>
         <source>Information</source>

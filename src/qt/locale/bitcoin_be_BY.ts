@@ -62,12 +62,12 @@
         <translation>адрасы Прымання</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тут знаходзяцца Sarmadcoin-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
+        <source>These are your Cellcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тут знаходзяцца Cellcoin-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
     </message>
     <message>
-        <source>These are your Sarmadcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Тут знаходзяцца Sarmadcoin-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
+        <source>These are your Cellcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Тут знаходзяцца Cellcoin-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -298,8 +298,8 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Даслаць манеты на Sarmadcoin-адрас</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Даслаць манеты на Cellcoin-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +322,8 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -350,12 +350,12 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Sarmadcoin addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Sarmadcoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your Cellcoin addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай Cellcoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Sarmadcoin addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Sarmadcoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified Cellcoin addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай Cellcoin-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -370,8 +370,8 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sarmadcoin: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для sarmadcoin URI)</translation>
+        <source>Request payments (generates QR codes and cellcoin: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для cellcoin URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -382,8 +382,8 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a sarmadcoin: URI or payment request</source>
-        <translation>Адкрыць sarmadcoin: URI ці запыт плацяжу</translation>
+        <source>Open a cellcoin: URI or payment request</source>
+        <translation>Адкрыць cellcoin: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1258,8 +1258,8 @@
         <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
     </message>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoin Core</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoin Core</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>

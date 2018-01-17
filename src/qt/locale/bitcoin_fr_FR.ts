@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choisissez une adresse où envoyer les sarmadcoins</translation>
+        <translation>Choisissez une adresse où envoyer les cellcoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choisissez une adresse où recevoir les sarmadcoins</translation>
+        <translation>Choisissez une adresse où recevoir les cellcoins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -238,8 +238,8 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Envoyer des pièces à une adresse Sarmadcoin</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Envoyer des pièces à une adresse Cellcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -262,8 +262,8 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -290,8 +290,8 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Sarmadcoin addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Sarmadcoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your Cellcoin addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses Cellcoin pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -310,24 +310,24 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and sarmadcoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et sarmadcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and cellcoin: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et cellcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
-        <source>Open a sarmadcoin: URI or payment request</source>
-        <translation>Ouvrir un sarmadcoin: URI ou demande de paiement</translation>
+        <source>Open a cellcoin: URI or payment request</source>
+        <translation>Ouvrir un cellcoin: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Sarmadcoin network</source>
-        <translation><numerusform>%n connexion active au réseau Sarmadcoin</numerusform><numerusform>%n connexions actives au réseau Sarmadcoin</numerusform></translation>
+        <source>%n active connection(s) to Cellcoin network</source>
+        <translation><numerusform>%n connexion active au réseau Cellcoin</numerusform><numerusform>%n connexions actives au réseau Cellcoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -712,8 +712,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically open the Sarmadcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Sarmadcoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the Cellcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Cellcoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -872,8 +872,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Sarmadcoin address (e.g. %1)</source>
-        <translation>Entrer une adresse Sarmadcoin (e.g. %1)</translation>
+        <source>Enter a Cellcoin address (e.g. %1)</source>
+        <translation>Entrer une adresse Cellcoin (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1734,8 +1734,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoin Core</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoin Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

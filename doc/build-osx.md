@@ -28,17 +28,17 @@ If you want to build with ZeroMQ support
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Sarmadcoin Core
+Build Cellcoin Core
 ------------------------
 
-1. Clone the sarmadcoin source code and cd into `sarmadcoin`
+1. Clone the cellcoin source code and cd into `cellcoin`
 
-        git clone https://github.com/sarmadcoin-project/sarmadcoin
-        cd sarmadcoin
+        git clone https://github.com/cellcoin-project/cellcoin
+        cd cellcoin
 
-2.  Build sarmadcoin-core:
+2.  Build cellcoin-core:
 
-    Configure and build the headless sarmadcoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless cellcoin binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -57,37 +57,37 @@ Build Sarmadcoin Core
 Running
 -------
 
-Sarmadcoin Core is now available at `./src/sarmadcoind`
+Cellcoin Core is now available at `./src/cellcoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=sarmadcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Sarmadcoin/sarmadcoin.conf"
+    echo -e "rpcuser=cellcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Cellcoin/cellcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Sarmadcoin/sarmadcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Cellcoin/cellcoin.conf"
 
-The first time you run sarmadcoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run cellcoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Sarmadcoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Cellcoin/debug.log
 
 Other commands:
 -------
 
-    ./src/sarmadcoind -daemon # Starts the sarmadcoin daemon.
-    ./src/sarmadcoin-cli --help # Outputs a list of command-line options.
-    ./src/sarmadcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/cellcoind -daemon # Starts the cellcoin daemon.
+    ./src/cellcoin-cli --help # Outputs a list of command-line options.
+    ./src/cellcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for sarmadcoin development.
+You can use Qt Creator as an IDE, for cellcoin development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "sarmadcoin-qt" as project name, enter src/qt as location
+4. Enter "cellcoin-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

@@ -114,8 +114,8 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Sarmadcoin address</source>
-        <translation>Enviar monedas a una dirección Sarmadcoin</translation>
+        <source>Send coins to a Cellcoin address</source>
+        <translation>Enviar monedas a una dirección Cellcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -130,8 +130,8 @@
         <translation>Abre la consola de depuración y diágnostico</translation>
     </message>
     <message>
-        <source>Sarmadcoin</source>
-        <translation>Sarmadcoin</translation>
+        <source>Cellcoin</source>
+        <translation>Cellcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -158,12 +158,12 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Sarmadcoin addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones Sarmadcoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your Cellcoin addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones Cellcoin para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Sarmadcoin addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Sarmadcoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified Cellcoin addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Cellcoin especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -608,8 +608,8 @@
         <translation>Correr en segundo plano como daemon y aceptar comandos</translation>
     </message>
     <message>
-        <source>Sarmadcoin Core</source>
-        <translation>Sarmadcoin Core</translation>
+        <source>Cellcoin Core</source>
+        <translation>Cellcoin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
