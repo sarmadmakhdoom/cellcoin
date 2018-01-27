@@ -48,7 +48,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "PST Times 16/Jan/2018 Sarmad Makhdoom working with CryptoCurrency";
+    const char* pszTimestamp = "NY Times 20/Jan/2018, CellCoin was born to revolutionize";
     const CScript genesisOutputScript = CScript() << ParseHex("040188810fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -80,12 +80,12 @@ public:
         consensus.BIP65Height = 1; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
         consensus.BIP66Height = 1; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
-        consensus.nPowTargetTimespan = 5 * 60; // 3.5 days
-        consensus.nPowTargetSpacing = 1 * 30;
+        consensus.nPowTargetTimespan = 2.8 * 24 * 60 * 60; // 2.8 days
+        consensus.nPowTargetSpacing = 2 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
-        consensus.nRuleChangeActivationThreshold = 30; // 75% of 8064
-        consensus.nMinerConfirmationWindow = 40; // nPowTargetTimespan / nPowTargetSpacing * 4
+        consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
+        consensus.nMinerConfirmationWindow = 8064; // nPowTargetTimespan / nPowTargetSpacing * 4
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
@@ -118,15 +118,15 @@ public:
         nDefaultPort = 8333;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1516105326, 277656, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1516406400, 1757305, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x70d8c115df3b7b970a4c0ba2471f82dd32e380e26f5b5a289233df9f160937c3"));
-        assert(genesis.hashMerkleRoot == uint256S("0x245283d32ebd535552389485356a1cd0737bf894bca0c95ce84e9176953f69bb"));
+        assert(consensus.hashGenesisBlock == uint256S("0x2868c1087b82842e945fea2462cc368769b7aaf602edeab9a7f4765c126ce13e"));
+        assert(genesis.hashMerkleRoot == uint256S("0x29fa8c360848adb80dc460401d1ca7f57cdd8779c75ca185a2c6b2d4d73ef69d"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.emplace_back("dnssseed.eerapi.com", true);
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
@@ -141,23 +141,17 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {  0, uint256S("0x70d8c115df3b7b970a4c0ba2471f82dd32e380e26f5b5a289233df9f160937c3")},
-                {  1, uint256S("0x75616b3f89a661d912b807d41bf61e5c21364921b8f0d8998bdd933fce69055a")},
-                {  2, uint256S("0x3d7e2ec7843fdb7748a8c6b42dd37f3222472706187b7d3fc3664ba7180523e8")},
-                {  3, uint256S("0x6f209d0cf9849b63456952c53f62f731d0927341856d72944f77189ca23540c5")},
-                {  4, uint256S("0x68b9d7a05eb69a7b5d30d4cb811f2c768fff9aabab3887c384f819933f3e4dba")},
-                {  5, uint256S("0xa6f098d346e8e769513bb8a188fa0733091408f5e04d2e4a48769b108d73a216")},
-                {  250, uint256S("e5ac7522af59e96447d7aa9b0757dbada911c22de8ac003a583aa8b09ecb587e")},
+                {  0, uint256S("0x2868c1087b82842e945fea2462cc368769b7aaf602edeab9a7f4765c126ce13e")},
                 
             }
         };
 
         chainTxData = ChainTxData{
             // Data as of block db42d00d824950a125f9b08b6b6c282c484781562fa8b3bd29d6ce4a2627c348 (height 1259851).
-            1516228704, // * UNIX timestamp of last known number of transactions
-             250,  // * total number of transactions between genesis and that timestamp
-                    //   (the tx=... number in the SetBestChain debug.log lines)
-             1000.0     // * estimated number of transactions per second after that timestamp
+            // 1516228704, // * UNIX timestamp of last known number of transactions
+            //  250,  // * total number of transactions between genesis and that timestamp
+            //         //   (the tx=... number in the SetBestChain debug.log lines)
+            //  1000.0     // * estimated number of transactions per second after that timestamp
         };
     }
 };
