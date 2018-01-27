@@ -205,8 +205,8 @@ public:
 
         genesis = CreateGenesisBlock(1516187380, 966007, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x35394e8248dcd1c663506babadacc28adf7d1c13a8650024790d00b481329536"));
-        assert(genesis.hashMerkleRoot == uint256S("0x245283d32ebd535552389485356a1cd0737bf894bca0c95ce84e9176953f69bb"));
+        assert(consensus.hashGenesisBlock == uint256S("0x2868c1087b82842e945fea2462cc368769b7aaf602edeab9a7f4765c126ce13e"));
+        assert(genesis.hashMerkleRoot == uint256S("0x29fa8c360848adb80dc460401d1ca7f57cdd8779c75ca185a2c6b2d4d73ef69d"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -230,7 +230,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {0, uint256S("0")},
+                {0, uint256S("0x2868c1087b82842e945fea2462cc368769b7aaf602edeab9a7f4765c126ce13e")},
             }
         };
 
